@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body>
+    <header>
+        <h1>This is my page</h1>
+        <nav>
+            <ul>
+                <li><a href=index.html>Home</a></li>
+                <li><a href=oppgave1.html>Task 2 part 1</a></li>
+                <li><a href=template.html>Template for underpages</a></li>
+                <li><a href="contact.html">Contact information</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact us</h2>
+        </section>
+        <section>
+            <h2>Come in touch with us today</h2>
+            <form method="post">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Nora Nordmann.." id="name" maxlength="45" required>
+                <label>
+                    Email:
+                    <input type="email" name="email" placeholder="example@hiof.no" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+                </label>
+                <label>
+                    Subject
+                    <input type="text" name="subject" placeholder="What is it about?">
+                </label>
+                <label>
+                    Melding
+                    <textarea name="message" required></textarea>
+                </label>
+                <label>
+                    Nei
+                    <input type="radio" name="choice">
+                </label>
+                <label>
+                    Ja
+                    <input type="radio" name="choice">
+                </label>
+                <input type="submit" value="send message">
+
+                <label>
+                    Favourite food
+                    <select name="Fav">
+                        <option value="Pizza">Pizza</option>
+                        <option value="Pasta">Pasta</option>
+                        <option value="Tomato Soup">Tomato Soup</option>
+                    </select>
+                </label>
+            </form>
+        </section>
+    </main>
+    <footer>2024 Arne Alexander Oshaug Lyngedal</footer>
+</body>
+</html>
