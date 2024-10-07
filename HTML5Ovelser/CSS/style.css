@@ -1,0 +1,56 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+header {
+    background-image:url(Pictures/header-background.png);
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+header nav ul li a {
+    color:white;
+}
+
+header nav ul li a:link {
+    text-decoration-line: none;
+}
+
+header nav ul li a:hover {
+    background-color: aquamarine;
+    text-decoration-line: underline;
+}
+
+body main table tbody td, body main table thead th{
+    border: 1px solid #000;
+    padding: 1rem;
+    text-align: left;
+}
+
+footer, footer :link {
+    background-color: darkgray;
+    color: white;
+    width: 100%;
+}
+
+.ingredients {
+    box-shadow: lightgray;
+    width: 350px;
+}
+
+.method {
+    box-shadow: lightgray;
+    width: 400px;
+}
